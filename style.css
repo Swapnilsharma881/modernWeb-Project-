@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'pricedown';
+    src: url(./pricedown\ bl.ttf);
+}
 *{
     margin: 0;
     padding: 0;
@@ -133,6 +137,7 @@ html, body{
 #hleft {
     min-width: 30%;
     height: auto;
+    
 }
 
 
@@ -143,6 +148,7 @@ html, body{
     justify-content: space-between;
     width: 25%;
     height: auto;
+    font-family: 'pricedown';
     gap: 50px;   
 }
 
@@ -173,6 +179,7 @@ html, body{
 #hleft .elem {
 /* margin: 100%; */
     position: relative;
+    
     height: 16vh;
     overflow: hidden;
     /* background-color: #fff; */
@@ -184,11 +191,12 @@ html, body{
     margin: 0px;
     top: 0%;
     font-size:19vh;
-    font-family: 'kajiro';
+    font-family: 'pricedown';
     color: rgb(6, 5, 5);
     font-weight: 500 ;
     letter-spacing: 2px;
     line-height: .9;   
+    overflow: hidden;
     /* background-color: #fff;  */
 }
 
@@ -196,9 +204,10 @@ html, body{
     margin: 0px;
     position: absolute;
     top: 100%;
+    overflow: hidden;
     /* padding: 25px 0px; */
     font-size:19vh;
-    font-family: 'kajiro';
+    font-family: 'pricedown';
     color: rgb(6, 5, 5);
     font-weight: 500 ;
     letter-spacing: 2px;
@@ -212,7 +221,11 @@ html, body{
     margin-top: 2px;
     padding: 2vw 3vw;
     font-size: 4vw;
-    font-family: 'kajiro';
+    font-family: 'pricedown';
     border-radius: 10%;
 }
+
+
+
+
 
